@@ -1,4 +1,4 @@
-# flamingoapp
+# Flamingo
 App which allows for easier networking at conference events.
 
 # What is it
