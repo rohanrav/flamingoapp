@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0026790C1E90574100C6A86D /* linkedin-sdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0026790B1E90574100C6A86D /* linkedin-sdk.framework */; };
+		0026790F1E90604200C6A86D /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0026790E1E90604200C6A86D /* MainViewController.m */; };
+		002679111E90927E00C6A86D /* flam.png in Resources */ = {isa = PBXBuildFile; fileRef = 002679101E90927E00C6A86D /* flam.png */; };
+		002679131E9096F900C6A86D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 002679121E9096F900C6A86D /* Images.xcassets */; };
+		002679191E90AE0100C6A86D /* Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 002679181E90AE0100C6A86D /* Cell.xib */; };
+		0026791C1E90AFB400C6A86D /* CellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0026791B1E90AFB400C6A86D /* CellTableViewCell.m */; };
+		0026791F1E90B15E00C6A86D /* SuggestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0026791E1E90B15E00C6A86D /* SuggestionViewController.m */; };
+		002679211E90B4F400C6A86D /* rishi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 002679201E90B4F400C6A86D /* rishi.jpg */; };
+		004AF9C71E90BA34000AF79F /* rohan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 004AF9C61E90BA34000AF79F /* rohan.jpg */; };
+		004AF9C91E90C532000AF79F /* loading.gif in Resources */ = {isa = PBXBuildFile; fileRef = 004AF9C81E90C532000AF79F /* loading.gif */; };
+		004AF9CE1E90C5AF000AF79F /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 004AF9CD1E90C5AF000AF79F /* ImageIO.framework */; };
+		004AF9D01E90C6A4000AF79F /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 004AF9CF1E90C6A4000AF79F /* ImageIO.framework */; };
+		004AF9D41E90D27C000AF79F /* CallKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 004AF9D31E90D27C000AF79F /* CallKit.framework */; };
+		5BE4BC501E915F7C0049BBA8 /* phone-receiver.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BE4BC4F1E915F7C0049BBA8 /* phone-receiver.png */; };
+		B92B559015E4621C0036A8A2 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B92B558F15E4621C0036A8A2 /* CoreBluetooth.framework */; };
+		B9F9161A15D5806400B3B398 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9F9161915D5806400B3B398 /* UIKit.framework */; };
+		B9F9161C15D5806400B3B398 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9F9161B15D5806400B3B398 /* Foundation.framework */; };
+		B9F9161E15D5806400B3B398 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9F9161D15D5806400B3B398 /* CoreGraphics.framework */; };
+		B9F9162415D5806400B3B398 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B9F9162215D5806400B3B398 /* InfoPlist.strings */; };
+		B9F9162615D5806400B3B398 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B9F9162515D5806400B3B398 /* main.m */; };
+		B9F9162A15D5806400B3B398 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B9F9162915D5806400B3B398 /* AppDelegate.m */; };
+		B9F9163315D5806500B3B398 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9F9163115D5806500B3B398 /* MainStoryboard_iPhone.storyboard */; };
+		B9F9163915D5806500B3B398 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9F9163815D5806500B3B398 /* ViewController.m */; };
+		B9F9164115D5808200B3B398 /* BTLECentralViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9F9164015D5808200B3B398 /* BTLECentralViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0026790B1E90574100C6A86D /* linkedin-sdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "linkedin-sdk.framework"; sourceTree = "<group>"; };
+		0026790D1E90604200C6A86D /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		0026790E1E90604200C6A86D /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		002679101E90927E00C6A86D /* flam.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flam.png; sourceTree = "<group>"; };
+		002679121E9096F900C6A86D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Flamingo/Images.xcassets; sourceTree = "<group>"; };
+		002679181E90AE0100C6A86D /* Cell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Cell.xib; sourceTree = "<group>"; };
+		0026791A1E90AFB400C6A86D /* CellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellTableViewCell.h; sourceTree = "<group>"; };
+		0026791B1E90AFB400C6A86D /* CellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellTableViewCell.m; sourceTree = "<group>"; };
+		0026791D1E90B15E00C6A86D /* SuggestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuggestionViewController.h; sourceTree = "<group>"; };
+		0026791E1E90B15E00C6A86D /* SuggestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuggestionViewController.m; sourceTree = "<group>"; };
+		002679201E90B4F400C6A86D /* rishi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rishi.jpg; sourceTree = "<group>"; };
+		004AF9C61E90BA34000AF79F /* rohan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rohan.jpg; sourceTree = "<group>"; };
+		004AF9C81E90C532000AF79F /* loading.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loading.gif; sourceTree = "<group>"; };
+		004AF9CD1E90C5AF000AF79F /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		004AF9CF1E90C6A4000AF79F /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		004AF9D31E90D27C000AF79F /* CallKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CallKit.framework; path = System/Library/Frameworks/CallKit.framework; sourceTree = SDKROOT; };
+		5BE4BC4F1E915F7C0049BBA8 /* phone-receiver.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "phone-receiver.png"; sourceTree = "<group>"; };
+		B92B557A15E456770036A8A2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
+		B92B557C15E4567F0036A8A2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
+		B92B558F15E4621C0036A8A2 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		B9F9161515D5806400B3B398 /* Flamingo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flamingo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9F9161915D5806400B3B398 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B9F9161B15D5806400B3B398 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B9F9161D15D5806400B3B398 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B9F9162115D5806400B3B398 /* Flamingo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Flamingo-Info.plist"; sourceTree = "<group>"; };
+		B9F9162315D5806400B3B398 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B9F9162515D5806400B3B398 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B9F9162715D5806400B3B398 /* Flamingo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Flamingo-Prefix.pch"; sourceTree = "<group>"; };
+		B9F9162815D5806400B3B398 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B9F9162915D5806400B3B398 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B9F9163215D5806500B3B398 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		B9F9163715D5806500B3B398 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B9F9163815D5806500B3B398 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B9F9163F15D5808200B3B398 /* BTLECentralViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTLECentralViewController.h; sourceTree = "<group>"; };
+		B9F9164015D5808200B3B398 /* BTLECentralViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTLECentralViewController.m; sourceTree = "<group>"; };
+		B9F9164715D583E500B3B398 /* TransferService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransferService.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B9F9161215D5806400B3B398 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				004AF9D41E90D27C000AF79F /* CallKit.framework in Frameworks */,
+				004AF9CE1E90C5AF000AF79F /* ImageIO.framework in Frameworks */,
+				B92B559015E4621C0036A8A2 /* CoreBluetooth.framework in Frameworks */,
+				004AF9D01E90C6A4000AF79F /* ImageIO.framework in Frameworks */,
+				0026790C1E90574100C6A86D /* linkedin-sdk.framework in Frameworks */,
+				B9F9161A15D5806400B3B398 /* UIKit.framework in Frameworks */,
+				B9F9161C15D5806400B3B398 /* Foundation.framework in Frameworks */,
+				B9F9161E15D5806400B3B398 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B9F9160A15D5806400B3B398 = {
+			isa = PBXGroup;
+			children = (
+				002679121E9096F900C6A86D /* Images.xcassets */,
+				004AF9CF1E90C6A4000AF79F /* ImageIO.framework */,
+				0026790B1E90574100C6A86D /* linkedin-sdk.framework */,
+				B9F9161F15D5806400B3B398 /* Flamingo */,
+				B9F9161815D5806400B3B398 /* Frameworks */,
+				B9F9161615D5806400B3B398 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B9F9161615D5806400B3B398 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9F9161515D5806400B3B398 /* Flamingo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9F9161815D5806400B3B398 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				004AF9D31E90D27C000AF79F /* CallKit.framework */,
+				004AF9CD1E90C5AF000AF79F /* ImageIO.framework */,
+				B92B558F15E4621C0036A8A2 /* CoreBluetooth.framework */,
+				B9F9161915D5806400B3B398 /* UIKit.framework */,
+				B9F9161B15D5806400B3B398 /* Foundation.framework */,
+				B9F9161D15D5806400B3B398 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B9F9161F15D5806400B3B398 /* Flamingo */ = {
+			isa = PBXGroup;
+			children = (
+				004AF9C61E90BA34000AF79F /* rohan.jpg */,
+				5BE4BC4F1E915F7C0049BBA8 /* phone-receiver.png */,
+				002679201E90B4F400C6A86D /* rishi.jpg */,
+				B9F9162815D5806400B3B398 /* AppDelegate.h */,
+				004AF9C81E90C532000AF79F /* loading.gif */,
+				B9F9162915D5806400B3B398 /* AppDelegate.m */,
+				B9F9163115D5806500B3B398 /* MainStoryboard_iPhone.storyboard */,
+				0026791D1E90B15E00C6A86D /* SuggestionViewController.h */,
+				0026791E1E90B15E00C6A86D /* SuggestionViewController.m */,
+				0026790D1E90604200C6A86D /* MainViewController.h */,
+				0026790E1E90604200C6A86D /* MainViewController.m */,
+				B9F9163715D5806500B3B398 /* ViewController.h */,
+				B9F9163815D5806500B3B398 /* ViewController.m */,
+				B9F9163F15D5808200B3B398 /* BTLECentralViewController.h */,
+				B9F9164015D5808200B3B398 /* BTLECentralViewController.m */,
+				002679181E90AE0100C6A86D /* Cell.xib */,
+				0026791A1E90AFB400C6A86D /* CellTableViewCell.h */,
+				0026791B1E90AFB400C6A86D /* CellTableViewCell.m */,
+				002679101E90927E00C6A86D /* flam.png */,
+				B9F9164715D583E500B3B398 /* TransferService.h */,
+				B9F9162015D5806400B3B398 /* Supporting Files */,
+			);
+			name = Flamingo;
+			path = "BTLE Transfer";
+			sourceTree = "<group>";
+		};
+		B9F9162015D5806400B3B398 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B92B557C15E4567F0036A8A2 /* Default@2x.png */,
+				B92B557A15E456770036A8A2 /* Default.png */,
+				B9F9162115D5806400B3B398 /* Flamingo-Info.plist */,
+				B9F9162215D5806400B3B398 /* InfoPlist.strings */,
+				B9F9162515D5806400B3B398 /* main.m */,
+				B9F9162715D5806400B3B398 /* Flamingo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B9F9161415D5806400B3B398 /* Flamingo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9F9163C15D5806500B3B398 /* Build configuration list for PBXNativeTarget "Flamingo" */;
+			buildPhases = (
+				B9F9161115D5806400B3B398 /* Sources */,
+				B9F9161215D5806400B3B398 /* Frameworks */,
+				B9F9161315D5806400B3B398 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Flamingo;
+			productName = "LE Transfer";
+			productReference = B9F9161515D5806400B3B398 /* Flamingo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9F9160C15D5806400B3B398 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Apple;
+				TargetAttributes = {
+					B9F9161415D5806400B3B398 = {
+						DevelopmentTeam = B7A79B695Q;
+					};
+				};
+			};
+			buildConfigurationList = B9F9160F15D5806400B3B398 /* Build configuration list for PBXProject "Flamingo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B9F9160A15D5806400B3B398;
+			productRefGroup = B9F9161615D5806400B3B398 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9F9161415D5806400B3B398 /* Flamingo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B9F9161315D5806400B3B398 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9F9162415D5806400B3B398 /* InfoPlist.strings in Resources */,
+				002679191E90AE0100C6A86D /* Cell.xib in Resources */,
+				002679131E9096F900C6A86D /* Images.xcassets in Resources */,
+				5BE4BC501E915F7C0049BBA8 /* phone-receiver.png in Resources */,
+				002679211E90B4F400C6A86D /* rishi.jpg in Resources */,
+				004AF9C71E90BA34000AF79F /* rohan.jpg in Resources */,
+				004AF9C91E90C532000AF79F /* loading.gif in Resources */,
+				002679111E90927E00C6A86D /* flam.png in Resources */,
+				B9F9163315D5806500B3B398 /* MainStoryboard_iPhone.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B9F9161115D5806400B3B398 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9F9162615D5806400B3B398 /* main.m in Sources */,
+				B9F9162A15D5806400B3B398 /* AppDelegate.m in Sources */,
+				B9F9163915D5806500B3B398 /* ViewController.m in Sources */,
+				0026791F1E90B15E00C6A86D /* SuggestionViewController.m in Sources */,
+				0026790F1E90604200C6A86D /* MainViewController.m in Sources */,
+				B9F9164115D5808200B3B398 /* BTLECentralViewController.m in Sources */,
+				0026791C1E90AFB400C6A86D /* CellTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B9F9162215D5806400B3B398 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9F9162315D5806400B3B398 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B9F9163115D5806500B3B398 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9F9163215D5806500B3B398 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B9F9163A15D5806500B3B398 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B9F9163B15D5806500B3B398 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B9F9163D15D5806500B3B398 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_OBJCPP_ARC_ABI = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = B7A79B695Q;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BTLE Transfer/Flamingo-Prefix.pch";
+				INFOPLIST_FILE = "BTLE Transfer/Flamingo-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kirsh.Flamingo;
+				PRODUCT_NAME = Flamingo;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B9F9163E15D5806500B3B398 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_OBJCPP_ARC_ABI = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = B7A79B695Q;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BTLE Transfer/Flamingo-Prefix.pch";
+				INFOPLIST_FILE = "BTLE Transfer/Flamingo-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kirsh.Flamingo;
+				PRODUCT_NAME = Flamingo;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B9F9160F15D5806400B3B398 /* Build configuration list for PBXProject "Flamingo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9F9163A15D5806500B3B398 /* Debug */,
+				B9F9163B15D5806500B3B398 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9F9163C15D5806500B3B398 /* Build configuration list for PBXNativeTarget "Flamingo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9F9163D15D5806500B3B398 /* Debug */,
+				B9F9163E15D5806500B3B398 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B9F9160C15D5806400B3B398 /* Project object */;
+}
